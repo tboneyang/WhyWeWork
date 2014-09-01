@@ -11,3 +11,82 @@
  *= require_self
  *= require_tree .
  */
+html,
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#wrapper{
+	position: relative;
+	min-height: 100%;
+	font-family:Courier;
+}
+
+#header{
+	padding:10px;
+	background:#69a;
+	height:150px;
+
+}
+
+#content{
+	padding:10px;
+	padding-bottom: 80px;.
+}
+
+#footer{
+	position:absolute;
+	height:80px;
+	background:#69a;
+	bottom:0px;
+	left:0px;
+	width:100%;
+}
+
+#header_logo {
+	float:left;
+	font-size: 140px;
+	color: white;
+	text-shadow:5px 5px 5px black;
+}
+
+#header_links a{
+	font-size: 20px;
+	float:right;
+	text-decoration: none;
+	color:white;
+	text-shadow:3px 3px 3px black;
+
+}
+
+#missioncollumn{
+	width:200px;
+	font-size: 80px;
+	height:100%;
+	float:left;
+}
+
+#listingbutton {
+	float:left;
+	margin-left: 400px;
+	margin-top: 150px;
+	background: #69a;
+	border:6px solid #aaa;
+	border-radius: 5px;
+}
+
+#listingbutton a{
+	height:400px;
+	width:800px;
+	text-decoration: none;
+
+}
+
+#explorebutton{
+	font-size: 150px;
+	color:#ccc;
+	text-shadow: 5px 5px 5px #aaa;
+
+}

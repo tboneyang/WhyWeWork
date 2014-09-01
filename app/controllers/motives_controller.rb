@@ -1,0 +1,2 @@
+class MotivesController < ApplicationController
+end
