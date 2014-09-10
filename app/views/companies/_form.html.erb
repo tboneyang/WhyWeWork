@@ -1,0 +1,9 @@
+<%= form_for @company do |x| %>
+	<div class="bt10">
+		<%= x.label :name, "Company Name" %><br>
+		<%= x.text_field :name%>
+
+		<%= x.submit "Add"%>
+	</div>
+	
+<% end %>

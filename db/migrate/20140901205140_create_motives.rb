@@ -3,6 +3,7 @@ class CreateMotives < ActiveRecord::Migration
     create_table :motives do |t|
 
       t.timestamps
+      t.string :point
     end
   end
 end

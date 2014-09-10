@@ -1,0 +1,21 @@
+<div id="contentmargin">
+
+<div id="titles"> Current Listings</div>
+
+
+<%= form_tag companies_path, :method => "get" do %>
+	<p>
+		<%= text_field_tag :search, params[:search] %>
+		<%= submit_tag "Search", :name => nil %>
+	</p>
+<% end %>
+
+<% @companies.each do |company| %>
+	<div class="listings">
+		<%= link_to company.name, company_path(company), :class =>"list_item" %>
+	</div>
+<% end %>
+
+<%= link_to "Add New Company", new_company_path, :class =>"tmargin20" %>
+
+</div>

@@ -16,77 +16,77 @@ body{
 	margin:0;
 	padding:0;
 	height:100%;
+	overflow:hidden;
 }
 
 #wrapper{
 	position: relative;
 	min-height: 100%;
-	font-family:Courier;
 }
 
 #header{
-	padding:10px;
-	background:#69a;
-	height:150px;
+	padding:4px;
+	background:#69f;
+	height:45px;
 
 }
 
 #content{
-	padding:10px;
-	padding-bottom: 80px;.
+	padding-bottom: 100px;
+
+}
+
+#contentmargin{
+	margin-left:20%;
 }
 
 #footer{
 	position:absolute;
-	height:80px;
-	background:#69a;
+	height:50px;
+	background:#69f;
 	bottom:0px;
-	left:0px;
 	width:100%;
 }
 
 #header_logo {
-	float:left;
-	font-size: 140px;
+	position:relative;
+	font-weight: bold;
+	left:15px;
+	font-size: 40px;
 	color: white;
-	text-shadow:5px 5px 5px black;
-}
-
-#header_links a{
-	font-size: 20px;
-	float:right;
-	text-decoration: none;
-	color:white;
-	text-shadow:3px 3px 3px black;
-
-}
-
-#missioncollumn{
-	width:200px;
-	font-size: 80px;
-	height:100%;
-	float:left;
+	font-family: Courier;
 }
 
 #listingbutton {
-	float:left;
-	margin-left: 400px;
-	margin-top: 150px;
-	background: #69a;
-	border:6px solid #aaa;
+	float:right;
+	padding:3px;
+	margin-top:10px;
+	border:2px solid #fff;
 	border-radius: 5px;
+	width:20%;
+	text-align:center;
 }
 
 #listingbutton a{
-	height:400px;
-	width:800px;
+	font-family:Montserrat;
 	text-decoration: none;
+	font-size: 20px;
+	color:#fff;
+}
+
+
+#footer_links{
+	word-spacing: 15px;
+	position:relative;
+	top:10px;
+	left:20px;
+
+}
+#footer_links a{
+	font-size: 20px;
+	text-decoration: none;
+	color:white;
+	text-shadow:1px 1px 1px black;
 
 }
 
-#explorebutton{
-	font-size: 150px;
-	color:#ccc;
-	text-shadow: 5px 5px 5px #aaa;
-
-}

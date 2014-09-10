@@ -16,11 +16,13 @@ ActiveRecord::Schema.define(version: 20140901205140) do
   create_table "companies", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
   end
 
   create_table "motives", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "point"
   end
 
 end

@@ -2,8 +2,9 @@ WhyWeWork::Application.routes.draw do
 
   root "static_pages#home"
   match "/contact", to: "static_pages#contact", via: "get"
+  match "/index", to: "companies#index", via:"get"
 
-  resources :company do
+  resources :companies do
     resources :motives
   end
 
